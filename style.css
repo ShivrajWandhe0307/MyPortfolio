@@ -203,6 +203,57 @@ span{
     margin: 2rem 0 3rem;
 }
 
+
+.marksheet
+{
+    background:#4d4d4d;
+}
+.marksheet th{
+    font-size: 2.2rem;
+
+}
+.marksheet th,td{
+   
+    padding:1%;
+    border:2px solid skyblue ;
+}
+.table th,td{
+    text-align: center;
+    padding: 8px;
+}
+.table
+{
+    margin-top: 5%;
+    width: 100%;
+    box-shadow:5px 5px 5px 5px skyblue;
+}
+.table td{
+    text-align: center;
+    font-size:2rem;
+    font-weight: 80;
+}
+.main
+{
+    width: 100%;
+}
+.table2 th,td
+
+{
+    font-size:2.2rem;
+    text-align: left;
+}.main2
+{
+    width: 80%;
+}
+.table2{
+    margin-left: 10%;
+    border: none;
+}
+
+
+
+
+
 .skill h2{
     margin-bottom: 5rem;
 }
@@ -264,7 +315,7 @@ span{
     display: flex;
 }
 .portfolio-box img{
-    width: 100%;
+    width: 150%;
     transition: .5s ease;
 }
 .portfolio-box:hover img
@@ -303,8 +354,8 @@ span{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 5rem;
-    height: 5rem;
+    width: 10rem;
+    height: 10rem;
     background: var(--text-color);
     border-radius: 50%;
 }
@@ -322,34 +373,8 @@ span{
     margin-bottom: 3rem;
 
 }
-.contact form .input-box{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.contact form .input-box input,
-.contact form textarea{
-    width: 100%;
-    padding: 1.5rem;
-    font-size: 1.6rem;
-    color: var(--text-color);
-    background: var(--second-bg-color);
-    border-radius: .8rem;
-    margin: .7rem 0;
 
-}
-.contact form .input-box input
-{
-    width: 49%;
-}
-.contact form textarea
-{
-    resize: none;
-}
-.contact form .btn{
-    margin-top: 2rem;
-    cursor: pointer;
-}
+
 
 .footer{
     display: flex;
@@ -462,6 +487,10 @@ span{
         margin-top: 4rem;
     }
     .about
+    {
+        flex-direction: column-reverse;
+    }
+    .marksheet
     {
         flex-direction: column-reverse;
     }
